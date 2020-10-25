@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="gallery.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Filtering Image Gallery</title>
+  </head>
+  <body>
+    <header>
+        <a href="#" class="logo">럐오 | Gallery</a>
+        <div class="toggle"></div>
+        <ul class="menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./index.html">About</a></li>
+          <li><a href="./index.html">Abilites</a></li>
+          <li><a href="./index.html">Films</a></li>
+          <li><a href="./index.html">Contact</a></li>
+        </ul>
+      </header>
+      <section>
+        <ul>
+          <li class="list active" data-filter="All">All</li>
+          <li class="list" data-filter="Color">Color</li>
+          <li class="list" data-filter="BW">Black & White</li>
+          <li class="list" data-filter="France">France</li>
+          <li class="list" data-filter="Italie">Italie</li>
+          <li class="list" data-filter="Japan">Japan</li>
+          <li class="list" data-filter="Vietnam">Vietnam</li>
+          <li class="list" data-filter="Korea">Korea</li>
+        </ul>
+     <div class="photos">
+        <div class="photo France Color"><img src="./img/F1.JPG" alt="" /></div>
+        <div class="photo France Color"><img src="./img/F2.JPG" alt="" /></div>
+        <div class="photo France Color"><img src="./img/F3.JPG" alt="" /></div>
+        <div class="photo France Color"><img src="./img/F6.JPG" alt="" /></div>
+        <div class="photo France Color"><img src="./img/F7.JPG" alt="" /></div>
+        <div class="photo France Color"><img src="./img/F8.JPG" alt="" /></div>
+        <div class="photo France BW"><img src="./img/F10.JPG" alt="" /></div>
+        <div class="photo Italie BW"><img src="./img/I1.JPG" alt="" /></div>
+        <div class="photo Italie BW"><img src="./img/I2.JPG" alt="" /></div>
+        <div class="photo Japan Color"><img src="./img/J1.jpg" alt="" /></div>
+        <div class="photo Japan Color"><img src="./img/J2.jpg" alt="" /></div>
+        <div class="photo Korea Color"><img src="./img/K1.jpg" alt="" /></div>
+        <div class="photo Korea Color"><img src="./img/K2.jpg" alt="" /></div>
+        <div class="photo Korea Color"><img src="./img/K3.jpg" alt="" /></div>
+        <div class="photo Vietnam Color"><img src="./img/V1.jpg" alt="" /></div>
+      </div>
+      </section>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="gallery.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
